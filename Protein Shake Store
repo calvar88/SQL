@@ -1,0 +1,18 @@
+create table protein (id integer primary key, name text, price integer, size text, rating integer);
+
+INSERT into protein values (1, "Strawberry Shake", 5.00, "S, M, L", 8);
+INSERT into protein values (2, "Chocolate Shake", 5.50, "S, M, L", 10);
+INSERT into protein values (3, "Vanilla Shake", 5.00, "S, M, L", 9);
+INSERT into protein values (4, "Cookies & Cream", 6.50, "S", 6);
+INSERT into protein values (5, "Peanut Butter Cup", 7, "S, M", 8);
+INSERT into protein values (6, "Creamsicle", 6.50, "M, L", 8);
+INSERT into protein values (7, "Green Goddess", 8, "S, M, L", 10);
+INSERT into protein values (8, "Berry Much", 7, "S, M, L", 8);
+INSERT into protein values (9, "Colada", 9, "S, M, L", 10);
+INSERT into protein values (10, "Snickers", 8, "S, M", 7);
+INSERT into protein values (11, "Krispy Treats", 7, "S", 6);
+INSERT into protein values (12, "Choc Coconut", 10, "M, L", 10);
+INSERT into protein values (13, "Strawberry Delight", 6, "S, L", 8);
+INSERT into protein values (14, "Pineapple Shake", 8, "M, L", 9);
+INSERT into protein values (15, "Victorious Green", 10, "L,", 7);
+SELECT * FROM protein;
